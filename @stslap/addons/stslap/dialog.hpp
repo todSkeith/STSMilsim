@@ -191,6 +191,7 @@ class stslap_menu
 			w = 0.0360937 * safezoneW;
 			h = 0.022 * safezoneH;
 			tooltip = $STR_A3_stslap_moneyControlsButtonChange_tooltip;
+			onButtonClick = "[] call stslap_fnc_giveMoney;";
 		};
 		class moneyControlsButtonSet: RscButton
 		{
